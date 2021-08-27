@@ -14,3 +14,21 @@ a {
 * {
   box-sizing: border-box;
 }
+
+img {
+  filter: grayscale(100%);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.bg-design{
+  background-image: url('../public/assets/img/bg-custom.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-develop{
+  background-image: url('../public/assets/img/bg-custom-02.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
