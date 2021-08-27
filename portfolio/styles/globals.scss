@@ -7,4 +7,11 @@ $theme-colors:(
     "secondary": $secondary
 );
 
+/* TYPOGRAPHY */
+$display-font-sizes: (
+  1: 7rem,
+);
+
+$display-font-weight: 400;
+
 @import "~bootstrap/scss/bootstrap";
