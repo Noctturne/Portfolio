@@ -12,7 +12,7 @@ const Design = () => {
                     <div className="m-2">
                         <figure class="figure">
                             <img src="/assets/img/roman-screenshot.png" className="img-fluid img-thumbnail shadow" alt="Screenshot"></img>
-                            <figcaption class="figure-caption text-center"> <a className="nav-link" href="https://github.com/Noctturne" target="_blank"> Template desarrollado en Wordpress </a> </figcaption>
+                            <figcaption class="figure-caption text-center"> <a className="nav-link" href="https://github.com/Noctturne/Wordpress-roman-illustrator" target="_blank"> Template desarrollado en Wordpress </a> </figcaption>
                         </figure>
                     </div>
                 </div>

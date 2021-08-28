@@ -2,7 +2,7 @@
 import 'bootstrap/dist/css/bootstrap.css'
 import '../styles/globals.css'
 import '../styles/globals.scss'
-
+import "animate.css"
 import Head from "next/head";
 import {useRouter} from 'next/router';
 

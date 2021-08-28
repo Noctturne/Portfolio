@@ -37,8 +37,8 @@ const Develop = () => {
                         <h4 class="card-title"> Actualmente aprendiendo... </h4>
                         <h6 class="card-subtitle mb-2 text-light"> Java - JPA - Spring Boot </h6>
                         <p class="card-text text-secondary"> Aplicación para añadir, editar, eliminar y listar usuarios.</p>
-                        <button type="button" class="btn btn-outline-secondary m-2" href="https://github.com/Noctturne/Angular-Spring-Started-Client" target="_blank"> Cliente </button>
-                        <button type="button" class="btn btn-outline-secondary m-2" href="https://github.com/Noctturne/Angular-Spring-Started-Server" target="_blank" > Servidor </button>
+                        <a class="btn btn-outline-secondary m-2" href="https://github.com/Noctturne/Angular-Spring-Started-Client" target="_blank"> Cliente </a>
+                        <a class="btn btn-outline-secondary m-2" href="https://github.com/Noctturne/Angular-Spring-Started-Server" target="_blank" > Servidor </a>
                     </div>
                 </div>
             </div>            

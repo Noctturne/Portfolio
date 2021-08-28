@@ -17,7 +17,10 @@ export default function Home() {
     <>
       <section className="header vh-100 bg-secondary">
           <div className="d-flex flex-column justify-content-center align-items-center h-100">
-              <h1 className="display-1 text-light"> <strong> Noctturne<span className="text-primary">!</span></strong> </h1>
+                <h1 className="display-1 text-light animate__animated animate__headShake"> <strong> Noctturne
+                    <span className="text-primary animate__animated animate__backInDown">!</span>
+                    </strong> 
+                </h1>
 
               <ul className="nav justify-content-center">
                   <li className="nav-item">
@@ -44,7 +47,7 @@ export default function Home() {
           </section>
       </div>
       <Footer></Footer>
-      <button class="btn btn-primary btn-floating position-fixed rounded-circle scrollTop" title="Go to top"><i className="fas fa-plus text-light"
+      <button class="btn btn-secondary btn-floating position-fixed rounded-circle scrollTop" title="Go to top"><i className="fas fa-chevron-up text-light"
         onClick={scrollTop}></i></button>
     </>
   )
