@@ -47,8 +47,8 @@ export default function Home() {
           </section>
       </div>
       <Footer></Footer>
-      <button class="btn btn-secondary btn-floating position-fixed rounded-circle scrollTop" title="Go to top"><i className="fas fa-chevron-up text-light"
-        onClick={scrollTop}></i></button>
+      <button className="btn btn-secondary btn-floating position-fixed scrollTop" title="Go to top"
+        onClick={scrollTop}> <small>TOP</small> </button>
     </>
   )
 }

@@ -10,9 +10,11 @@ const Design = () => {
             <div className="row m-2">
                 <div className="col-sm-7 p-3">
                     <div className="m-2">
-                        <figure class="figure">
-                            <img src="/assets/img/roman-screenshot.png" className="img-fluid img-thumbnail shadow" alt="Screenshot"></img>
-                            <figcaption class="figure-caption text-center"> <a className="nav-link" href="https://github.com/Noctturne/Wordpress-roman-illustrator" target="_blank"> Template desarrollado en Wordpress </a> </figcaption>
+                        <figure className="figure">
+                            <img src="../assets/img/roman-screenshot.png" className="img-fluid img-thumbnail shadow" alt="Screenshot"></img>
+                            <figcaption className="figure-caption text-center"> 
+                                <a className="nav-link" href="https://github.com/Noctturne/Wordpress-roman-illustrator" target="_blank" rel="noreferrer"> Template desarrollado en Wordpress </a> 
+                            </figcaption>
                         </figure>
                     </div>
                 </div>
