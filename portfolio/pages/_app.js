@@ -12,6 +12,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="https://kit.fontawesome.com/ce02519927.js" crossorigin="anonymous"></script>
       </Head>
       <Component {...pageProps} key={router.route}/>
     </>

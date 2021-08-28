@@ -1,10 +1,18 @@
-import DesignHero from '../components/DesignHero';
+import * as React from "react";
 import Design from '../components/Design';
-import DevelopHero from '../components/DevelopHero';
 import Develop from '../components/Develop';
+import Footer from '../components/Footer';
 
 
 export default function Home() {
+    React.useEffect(() => {
+        scrollTop();
+      }, []);
+
+    const scrollTop = () => {
+        window.scroll(0, window.pageYOffset - 5000);
+    }
+
   return (
     <>
       <section className="header vh-100 bg-secondary">
@@ -13,31 +21,31 @@ export default function Home() {
 
               <ul className="nav justify-content-center">
                   <li className="nav-item">
-                      <a className="nav-link active" aria-current="page" href="#design"> Design </a>
+                      <a className="nav-link active" aria-current="page" href="#design"> Diseño </a>
                   </li>
                   <li className="nav-item">
-                      <a className="nav-link" href="#develop"> Develop </a>
-                  </li>
-                  <li className="nav-item">
-                      <a className="nav-link" href="#discover"> Discover </a>
+                      <a className="nav-link" href="#develop"> Desarrollo </a>
                   </li>
               </ul>
           </div> 
       </section>
 
-      <DesignHero></DesignHero>
+      <section className="design vh-100 h-75 bg-design"></section>
 
       <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" className="scrollspy" tabIndex="0">
-        <section id="design" className="design">
-            <Design></Design>
-        </section>
+          <section id="design" className="design">
+              <Design></Design>
+          </section>
 
-        <DevelopHero></DevelopHero>
+          <section className="design vh-100 h-75 bg-develop"></section>
 
-        <section id="develop" className="develop">
-            <Develop></Develop>
-        </section>
+          <section id="develop" className="develop">
+              <Develop></Develop>
+          </section>
       </div>
+      <Footer></Footer>
+      <button class="btn btn-primary btn-floating position-fixed rounded-circle scrollTop" title="Go to top"><i className="fas fa-plus text-light"
+        onClick={scrollTop}></i></button>
     </>
   )
 }
