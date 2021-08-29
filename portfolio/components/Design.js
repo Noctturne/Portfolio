@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaintBrush, faCode, faGlobe, faTabletAlt } from "@fortawesome/free-solid-svg-icons";
 import { faWordpress, faJsSquare } from "@fortawesome/free-brands-svg-icons";
@@ -18,8 +18,8 @@ const Design = () => {
             </div>
             <div className="container py-5">
                 <div className="row">
-                    <div class="col-sm-6 col-lg-4 mb-4">
-                        <div class="card p-2 text-center">
+                    <div className="col-sm-6 col-lg-4 mb-4">
+                        <div className="card p-2 text-center">
                             <div className="card-img-top p-2">
                                 <FontAwesomeIcon icon={faPaintBrush} size="3x"/>
                             </div>
@@ -30,8 +30,8 @@ const Design = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4 mb-4">
-                        <div class="card p-2 text-center">
+                    <div className="col-sm-6 col-lg-4 mb-4">
+                        <div className="card p-2 text-center">
                             <div className="card-img-top p-2">
                                 <FontAwesomeIcon icon={faCode} size="3x"/>
                             </div>
@@ -42,8 +42,8 @@ const Design = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4 mb-4">
-                        <div class="card p-2 text-center">
+                    <div className="col-sm-6 col-lg-4 mb-4">
+                        <div className="card p-2 text-center">
                             <div className="card-img-top p-2">
                                 <FontAwesomeIcon icon={faWordpress} size="3x"/>
                             </div>
@@ -54,8 +54,8 @@ const Design = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4 mb-4">
-                        <div class="card p-2 text-center">
+                    <div className="col-sm-6 col-lg-4 mb-4">
+                        <div className="card p-2 text-center">
                             <div className="card-img-top p-2">
                                 <FontAwesomeIcon icon={faGlobe} size="3x"/>
                             </div>
@@ -65,8 +65,8 @@ const Design = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4 mb-4">
-                        <div class="card p-2 text-center">
+                    <div className="col-sm-6 col-lg-4 mb-4">
+                        <div className="card p-2 text-center">
                             <div className="card-img-top p-2">
                                 <FontAwesomeIcon icon={faTabletAlt} size="3x"/>
                             </div>
@@ -77,8 +77,8 @@ const Design = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4 mb-4">
-                        <div class="card p-2 text-center">
+                    <div className="col-sm-6 col-lg-4 mb-4">
+                        <div className="card p-2 text-center">
                             <div className="card-img-top p-2">
                                 <FontAwesomeIcon icon={faJsSquare} size="3x"/>
                             </div>

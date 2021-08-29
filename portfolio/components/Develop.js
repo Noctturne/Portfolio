@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faReact, faVuejs, faAngular, faJava, faLaravel } from "@fortawesome/free-brands-svg-icons";
 import { faServer } from "@fortawesome/free-solid-svg-icons";
@@ -10,7 +10,7 @@ const Develop = () => {
             </div>
             <div className="container py-5">
                 <div className="row justify-content-center">
-                    <div class="col-12 col-sm-6 col-lg-4 my-2">
+                    <div className="col-12 col-sm-6 col-lg-4 my-2">
                         <div className="card p-4">
                             <div className="card-img-top p-2 text-center">
                                 <FontAwesomeIcon icon={faReact} size="2x"/>
@@ -27,7 +27,7 @@ const Develop = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-lg-4 my-2">
+                    <div className="col-12 col-sm-6 col-lg-4 my-2">
                         <div className="card bg-secondary p-4">
                             <div className="card-img-top p-2 text-center">
                                 <FontAwesomeIcon icon={faServer} size="2x" className="text-light"/>
@@ -43,9 +43,9 @@ const Develop = () => {
                         </div>
                     </div>
 
-                    <div class="w-100"></div>
+                    <div className="w-100"></div>
 
-                    <div class="col-12 col-sm-6 col-lg-4 my-2">
+                    <div className="col-12 col-sm-6 col-lg-4 my-2">
                         <div className="card bg-secondary p-4">
                             <div className="card-img-top p-2 text-center">
                                 <FontAwesomeIcon icon={faJava} size="2x" className="text-light"/>
@@ -60,7 +60,7 @@ const Develop = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-lg-4 my-2">
+                    <div className="col-12 col-sm-6 col-lg-4 my-2">
                         <div className="card p-4">
                         <div className="card-img-top p-2 text-center">
                                 <FontAwesomeIcon icon={faLaravel} size="2x"/>
@@ -68,7 +68,7 @@ const Develop = () => {
                             <div className="card-body">
                                 <h5 className="card-title"> Actualmente aprendiendo... </h5>
                                 <h6 className="card-subtitle mb-2 text-muted"> Laravel </h6>
-                                <p className="card-text"> Proyecto "meetup", busca eventos en tu zona. </p>
+                                <p className="card-text"> Proyecto Tails, busca eventos en tu zona. </p>
                                 <a href="https://github.com/Noctturne/Vue-Laravel-Tails" target="_blank" className="nav-link" rel="noreferrer"> Ver en Github </a>
                             </div>
                         </div>

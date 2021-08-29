@@ -1,7 +1,7 @@
 import * as React from "react";
-import Design from '../components/Design';
-import Develop from '../components/Develop';
-import Footer from '../components/Footer';
+import Design from "../components/Design";
+import Develop from "../components/Develop";
+import Footer from "../components/Footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
 
