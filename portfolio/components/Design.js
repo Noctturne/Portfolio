@@ -17,11 +17,11 @@ const Design = () => {
                 </div>
             </div>
             <div className="container py-5">
-                <div className="row m-2">
+                <div className="row">
                     <div class="col-sm-6 col-lg-4 mb-4">
-                        <div class="card p-2 text-center border-0">
+                        <div class="card p-2 text-center">
                             <div className="card-img-top p-2">
-                                <FontAwesomeIcon icon={faPaintBrush} size="3x" className="text-primary"/>
+                                <FontAwesomeIcon icon={faPaintBrush} size="3x"/>
                             </div>
                             <div className="card-body">
                                 <h5 className="card-title"> MOCKUPS </h5>
@@ -33,7 +33,7 @@ const Design = () => {
                     <div class="col-sm-6 col-lg-4 mb-4">
                         <div class="card p-2 text-center">
                             <div className="card-img-top p-2">
-                                <FontAwesomeIcon icon={faCode} size="3x" className="text-primary"/>
+                                <FontAwesomeIcon icon={faCode} size="3x"/>
                             </div>
                             <div className="card-body">
                                 <h5 className="card-title"> BÁSICOS </h5>
@@ -43,9 +43,9 @@ const Design = () => {
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4 mb-4">
-                        <div class="card p-2 text-center border-0">
+                        <div class="card p-2 text-center">
                             <div className="card-img-top p-2">
-                                <FontAwesomeIcon icon={faWordpress} size="3x" className="text-secondary"/>
+                                <FontAwesomeIcon icon={faWordpress} size="3x"/>
                             </div>
                             <div className="card-body">
                                 <h5 className="card-title"> CMS </h5>
@@ -57,7 +57,7 @@ const Design = () => {
                     <div class="col-sm-6 col-lg-4 mb-4">
                         <div class="card p-2 text-center">
                             <div className="card-img-top p-2">
-                                <FontAwesomeIcon icon={faGlobe} size="3x" className="text-secondary"/>
+                                <FontAwesomeIcon icon={faGlobe} size="3x"/>
                             </div>
                             <div className="card-body">
                                 <h5 className="card-title"> SEO </h5>
@@ -66,9 +66,9 @@ const Design = () => {
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4 mb-4">
-                        <div class="card p-2 text-center border-0">
+                        <div class="card p-2 text-center">
                             <div className="card-img-top p-2">
-                                <FontAwesomeIcon icon={faTabletAlt} size="3x" className="text-primary"/>
+                                <FontAwesomeIcon icon={faTabletAlt} size="3x"/>
                             </div>
                             <div className="card-body">
                                 <h5 className="card-title"> RESPONSIVE </h5>
@@ -80,7 +80,7 @@ const Design = () => {
                     <div class="col-sm-6 col-lg-4 mb-4">
                         <div class="card p-2 text-center">
                             <div className="card-img-top p-2">
-                                <FontAwesomeIcon icon={faJsSquare} size="3x" className="text-secondary"/>
+                                <FontAwesomeIcon icon={faJsSquare} size="3x"/>
                             </div>
                             <div className="card-body">
                                 <h5 className="card-title"> PLUGINS Y ANIMACIONES </h5>

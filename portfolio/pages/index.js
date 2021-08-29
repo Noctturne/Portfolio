@@ -19,7 +19,7 @@ export default function Home() {
       <section className="header vh-100 bg-secondary">
           <div className="d-flex flex-column justify-content-center align-items-center h-100">
                 <h1 className="display-1 text-light animate__animated animate__headShake"> <strong> Noctturne
-                    <span className="text-primary animate__animated animate__backInDown">!</span>
+                    <span className="text-primary">!</span>
                     </strong> 
                 </h1>
 
