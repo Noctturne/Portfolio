@@ -2,7 +2,8 @@ import * as React from "react";
 import Design from '../components/Design';
 import Develop from '../components/Develop';
 import Footer from '../components/Footer';
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
 
 export default function Home() {
     React.useEffect(() => {
@@ -48,7 +49,7 @@ export default function Home() {
       </div>
       <Footer></Footer>
       <button className="btn btn-secondary btn-floating position-fixed scrollTop" title="Go to top"
-        onClick={scrollTop}> <small>TOP</small> </button>
+        onClick={scrollTop}> <FontAwesomeIcon icon={faChevronUp} className="text-light"/> </button>
     </>
   )
 }
